@@ -5,7 +5,7 @@ metadata:
   annotations:
     nginx.ingress.kubernetes.io/use-regex: "true"
 spec:
-  ingressclassName: nginx
+  ingressClassName: nginx
   rules:
     - host: vprofile.dm-info.site
       http:
